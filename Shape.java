@@ -7,5 +7,5 @@ public abstract class Shape {
         this.name = name;
     }
 
-    public abstract float clcArea();
+    public abstract float getArea();
 }
