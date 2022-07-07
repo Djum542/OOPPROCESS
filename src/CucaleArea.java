@@ -3,8 +3,8 @@ import javafx.scene.shape.Shape;
 public class CucaleArea {
     private double area;
 
-    public double CucaleArea(Shape s) {
-        double area = ((Object) s).getArea();
+    public Class<? extends Object> CucaleArea(Shape s) {
+        Class<? extends Object> area = ((Object) s).getClass();
         return area;
     }
 }
